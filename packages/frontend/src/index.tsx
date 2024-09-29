@@ -1,7 +1,6 @@
-import "./styles/style.css";
 import { createRoot } from 'react-dom/client';
-import { App } from './App';
 import { CaidoSDK } from "./types";
+import { App } from "@/App";
 
 export const init = (sdk: CaidoSDK) => {
   const rootElement = document.createElement("div");

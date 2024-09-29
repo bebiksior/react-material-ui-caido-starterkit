@@ -11,19 +11,20 @@
   },
   "dependencies": {
     "@caido/sdk-frontend": "0.41.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.1",
     "@mui/material": "^6.1.1",
-    "@mui/x-data-grid": "^7.18.0",
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
-    "caido-mui-theme": "^1.0.0",
+    "allotment": "^1.20.2",
+    "caido-material-ui": "^1.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@caido/sdk-backend": "0.41.0",
     "@types/node": "^22.7.4",
-    "@types/tailwindcss": "^3.1.0",
     "@vitejs/plugin-react": "^4.3.1",
     "backend": "workspace:*",
     "shared": "workspace:*",
