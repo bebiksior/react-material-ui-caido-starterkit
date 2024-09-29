@@ -27,7 +27,7 @@ For frontend only use the [frontend](https://github.com/caido/frontend) starterk
 
 ## Note
 
-I modified the starerkit to include React & MUI v6. I also included [CaidoMUITheme](https://github.com/bebiksior/CaidoMUITheme) to provide a consistent theme across your plugin and Caido app.
+I modified the starerkit to include React & MUI v6. I also included [caido-material-ui](https://github.com/bebiksior/caido-materialui) to provide a consistent theme across your plugin and Caido.
 
 I recommend using [allotment](https://github.com/johnwalley/allotment) for splitting your UI into multiple panels.
 
