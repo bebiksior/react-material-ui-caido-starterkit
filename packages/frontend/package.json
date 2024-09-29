@@ -1,5 +1,5 @@
 {
-  "name": "starterkit-plugin-frontend",
+  "name": "frontend",
   "version": "0.1.0",
   "description": "StarterKit plugin for Caido",
   "author": "Caido Labs Inc. <dev@caido.io>",
@@ -10,10 +10,24 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@caido/sdk-frontend": "0.41.0"
+    "@caido/sdk-frontend": "0.41.0",
+    "@mui/icons-material": "^6.1.1",
+    "@mui/material": "^6.1.1",
+    "@mui/x-data-grid": "^7.18.0",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "caido-mui-theme": "^1.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@caido/sdk-backend": "0.41.0",
-    "starterkit-plugin-backend": "workspace:*"
+    "@types/node": "^22.7.4",
+    "@types/tailwindcss": "^3.1.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "backend": "workspace:*",
+    "shared": "workspace:*",
+    "tailwindcss": "^3.4.13",
+    "vite": "5.4.8"
   }
 }

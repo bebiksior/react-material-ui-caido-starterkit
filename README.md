@@ -23,7 +23,13 @@
 This is the starter kit for the Caido plugin system.
 
 This template is full-stack, with both a backend and frontend plugin. This is called a `plugin package`.
-For frontend only use the [frontend](https://github.com/caido/starterkit-plugin-frontend) starterkit.
+For frontend only use the [frontend](https://github.com/caido/frontend) starterkit.
+
+## Note
+
+I modified the starerkit to include React & MUI v6. I also included [CaidoMUITheme](https://github.com/bebiksior/CaidoMUITheme) to provide a consistent theme across your plugin and Caido app.
+
+I recommend using [allotment](https://github.com/johnwalley/allotment) for splitting your UI into multiple panels.
 
 ## 🏎️ Usage
 

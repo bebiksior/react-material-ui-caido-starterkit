@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "plugin-template-backend",
+      name: "backend",
       fileName: (format) => "script.js",
       formats: ["es"],
     },
@@ -16,6 +16,11 @@ export default defineConfig({
       output: {
         manualChunks: undefined,
       },
+    },
+  },
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "src"),
     },
   },
 });
